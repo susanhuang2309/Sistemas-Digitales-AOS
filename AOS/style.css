@@ -1,0 +1,21 @@
+*{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+ }
+ 
+:root{
+--accent: #96a2e4;
+--bg: #fac3f1;
+--text: hsl(219, 79%, 9%);  }
+
+*{box-sizing:border-box}
+body{font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:var(--bg); color:var(--text);}
+.hero{height:60vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background: linear-gradient(135deg,#e6f2ff,#fff); text-align:center;}
+.hero h1{font-size:3rem; margin:0; letter-spacing:1px;}
+section{padding:60px 20px; max-width:900px; margin:0 auto;}
+h2{font-size:1.6rem; color:var(--accent); margin-bottom:12px;}
+ul{padding-left:18px;}
+footer{padding:24px; text-align:center; background:#d5d5e6;}
+
+.imagen{width:250px; position:absolute; top:160px; left:550px;}
+
+.logo {width:100px; position:absolute; top: 450px; left:1220px;}
